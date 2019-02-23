@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1542646435 source:f:\codeblocks_projects\tictactoe\main.cpp
+	"SDL.h"
+	"Game.h"
+	<iostream>
+
+1543159942 f:\codeblocks_projects\tictactoe\include\game.h
+	"SDL.h"
+	"SDL_image.h"
+	<iostream>
+	"MyText.h"
+
+1543748693 f:\codeblocks_projects\tictactoe\include\mytext.h
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_ttf.h"
+	<iostream>
+
+1518455159 source:f:\codeblocks_projects\tictactoe\src\gameobject.cpp
+	"GameObject.h"
+	"TextureManager.h"
+	<iostream>
+
+1518454845 f:\codeblocks_projects\tictactoe\include\gameobject.h
+	"Game.h"
+
+1515850363 f:\codeblocks_projects\tictactoe\include\texturemanager.h
+	"Game.h"
+
+1543744754 source:f:\codeblocks_projects\tictactoe\src\mybutton.cpp
+	"MyButton.h"
+
+1543744689 f:\codeblocks_projects\tictactoe\include\mybutton.h
+	"GameObject.h"
+	<SDL_mixer.h>
+
+1543748725 source:f:\codeblocks_projects\tictactoe\src\mytext.cpp
+	"MyText.h"
+	<string>
+
+1515851148 source:f:\codeblocks_projects\tictactoe\src\texturemanager.cpp
+	"TextureManager.h"
+
+1543749398 source:f:\codeblocks_projects\tictactoe\src\game.cpp
+	"Game.h"
+	"TextureManager.h"
+	"GameObject.h"
+	"AnimatedObject.h"
+	"Board.h"
+	"MyButton.h"
+	<stdlib.h>
+	<cstdint>
+	<SDL_mixer.h>
+	"AnimatedText.h"
+
+1543745243 f:\codeblocks_projects\tictactoe\include\animatedobject.h
+	<GameObject.h>
+	<vector>
+	<SDL_mixer.h>
+
+1543746581 source:f:\codeblocks_projects\tictactoe\src\animatedobject.cpp
+	"AnimatedObject.h"
+
+1543589102 source:f:\codeblocks_projects\tictactoe\src\board.cpp
+	"Board.h"
+
+1543589078 f:\codeblocks_projects\tictactoe\include\board.h
+	<Game.h>
+
+1543749267 source:f:\codeblocks_projects\tictactoe\src\animatedtext.cpp
+	"AnimatedText.h"
+
+1543748961 f:\codeblocks_projects\tictactoe\include\animatedtext.h
+	<MyText.h>
+	<SDL.h>
+	<string>
+

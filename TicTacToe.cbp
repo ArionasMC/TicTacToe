@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TicTacToe" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TicTacToe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TicTacToe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="OpenSans-Regular.ttf" />
+		<Unit filename="SDL2.dll" />
+		<Unit filename="SDL2_image.dll" />
+		<Unit filename="SDL2_mixer.dll" />
+		<Unit filename="SDL2_ttf.dll" />
+		<Unit filename="include/AnimatedObject.h" />
+		<Unit filename="include/AnimatedText.h" />
+		<Unit filename="include/Board.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/GameObject.h" />
+		<Unit filename="include/MyButton.h" />
+		<Unit filename="include/MyText.h" />
+		<Unit filename="include/TextureManager.h" />
+		<Unit filename="libfreetype-6.dll" />
+		<Unit filename="libjpeg-9.dll" />
+		<Unit filename="libpng16-16.dll" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AnimatedObject.cpp" />
+		<Unit filename="src/AnimatedText.cpp" />
+		<Unit filename="src/Board.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/GameObject.cpp" />
+		<Unit filename="src/MyButton.cpp" />
+		<Unit filename="src/MyText.cpp" />
+		<Unit filename="src/TextureManager.cpp" />
+		<Unit filename="zlib1.dll" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
